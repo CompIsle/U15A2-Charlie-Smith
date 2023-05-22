@@ -8,3 +8,5 @@ The site can be launched by opening a terminal in the src folder. Once a termina
     npm install
     npm run dev
 ```
+
+Or you can visit the site on cloudflare using this link: <https://unit-15-assignment-2.pages.dev/>
