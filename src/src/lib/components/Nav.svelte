@@ -25,7 +25,7 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        background-color: #020096;
+        background-color: #001966;
         border-bottom: .2em solid #0c0042;
     }
     h1 > a{
@@ -55,7 +55,7 @@
         border-radius: .5em;
     }
     li > a:hover, .active{
-        background-color: #beb8fa;
+        background-color: #bfcfff;
         color: #000000;
     }
 </style>

@@ -6,6 +6,9 @@
     <div class="Nav">
         <Nav/> 
     </div>
+    <div class="image">
+        <img src="" alt="I need to find an image to put here">
+    </div>
     <div class="Page">
         <slot/>
     </div>
@@ -22,18 +25,23 @@
     }
     .container{
         display: grid;
-        grid-template-columns: 20dvw 60dvw 20dvw;
+        grid-template-columns: 3vw 94vw 3vw;
         grid-template-rows: 7em auto;
-        background-color: #e2e2e2;
+        background-color: #BFCFFF;
     }
     .Nav{
         grid-column: 1/4;
         grid-row: 1;
         z-index: 9999;
     }
+    .image{
+        grid-column: 1/4;
+        grid-row: 2;
+        display: none;
+    }
     .Page{
         grid-column: 2/3;
-        grid-row: 2;
+        grid-row: 3;
         border: .1em solid #000000;
         border-radius: 1em;
         box-shadow: 0em 0em 1em .5em rgba(0,0,0,0.1);

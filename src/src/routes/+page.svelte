@@ -3,7 +3,9 @@
 </script>
 
 <div class="container">
-    <h1>Hello</h1>
+    <h1>(Insert exsisting website here)</h1>
+    <p>This website is for unit 15 assignment 2. This home page is intended for the existing website to be transferred to this new design. The new pages can be accessed by using the navigation bar at the top of the page</p>
+    <p>All documentation about the page can be found here: <a href="https://github.com/CharlieS-432737/Unit-15-Assignment-2">https://github.com/CharlieS-432737/Unit-15-Assignment-2</a></p>
 </div>
 
 <style>

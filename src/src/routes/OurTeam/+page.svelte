@@ -81,6 +81,7 @@
         border: .1em solid #000000;
         margin: 1em;
         border-radius: 1em;
+		background-color: #BFCFFF;
         flex-direction: row;
 	}
     .employee h4,.employee p{

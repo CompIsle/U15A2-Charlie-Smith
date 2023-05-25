@@ -33,6 +33,12 @@
     <div class="submit">
         <button><a href="/JoinUs/application">Apply here</a></button>
     </div>
+    <div class="courses">
+        <h4>List of online courses</h4>
+        <a href="https://www.futurelearn.com/courses/learn-to-code-for-the-web">Learn to code for the web</a>
+        <a href="https://legacy.reactjs.org/community/courses.html">A list of React development course</a>
+        <a href="https://www.codecademy.com/learn/learn-git">Learn Git & Github</a>
+    </div>
 </div>
 
 <style>
@@ -81,5 +87,19 @@
     .submit a:hover {
         background-color: #beb8fa;
         color:#000000;
+    }
+    .courses{
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+        border-radius: 1em;
+        border: .1em solid #bebebe;
+        padding: 1em;
+    }
+    .courses h4{
+        text-decoration-line: underline;
+    }
+    .courses a{
+        padding: 2em;
     }
 </style>
