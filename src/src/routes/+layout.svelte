@@ -43,6 +43,9 @@
         .Page{
             grid-column: 1/4;
         }
+        .container{
+            font-size: .8em;
+        }
         body{
             font-size: 1.5dvw;
         }

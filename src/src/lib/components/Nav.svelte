@@ -49,7 +49,7 @@
         padding-right: 2em;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     li > a{
         list-style: none;
@@ -73,9 +73,11 @@
             grid-column: 1/4;
             grid-row: 2;
             justify-self: auto;
+            padding: 0;
         }
         li > a {
             padding: 1em 2em;
+            margin: 0 .2em;
         }
     }
 </style>

@@ -115,7 +115,6 @@
 	@media only screen and (max-width: 800px) {
         .container{
 			padding: 1em .4em;
-			font-size: 1.2em;
 		}
 		.content{
 			margin: 1em 0;
