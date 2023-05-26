@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <div class="container">
     <h1>(Insert exsisting website here)</h1>
     <p>This website is for unit 15 assignment 2. This home page is intended for the existing website to be transferred to this new design. The new pages can be accessed by using the navigation bar at the top of the page</p>

@@ -152,10 +152,8 @@ Change Log tracked using Github issues
 ## Test
 
 ### Validation Reports
-<!--
 - Validation report for HTML: [HTML validation report](https://validator.w3.org/)
-- Validation report for CSS: [CSS validation report](https://jigsaw.w3.org/css-validator/)
--->
+- Validation report for CSS: [CSS validation report](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Funit-15-assignment-2.pages.dev%2F&usermedium=all&vextwarning=&warning=1)
 ### Test Results
 
 | Test ID | What needs to happen for test | Expected behaviour | Actual behaviour | Pass |

@@ -2,29 +2,27 @@
     import Nav from "$lib/components/Nav.svelte";
 </script>
 
-<body class="container">
+<div class="container">
     <div class="Nav">
         <Nav/> 
     </div>
     <div class="Page">
         <slot/>
     </div>
-</body>
+</div>
 
 <style>
     *{
         padding: 0;
         margin: 0;
     }
-    body {
-        font: 1dvw 'Roboto', Arial, sans-serif;
-        color: #000000;
-    }
     .container{
         display: grid;
         grid-template-columns: 3vw 94vw 3vw;
         grid-template-rows: auto 2em auto;
         background-color: #BFCFFF;
+        font: 1dvw 'Roboto', Arial, sans-serif;
+        color: #000000;
     }
     .Nav{
         grid-column: 1/4;
