@@ -4,8 +4,8 @@ export async function load() {
     let id = 0;
     for (const i in files) {
         await files[i]().then(({ default: imageUrl }) => {
-            let name = imageUrl.slice(26,-4)
-            images.push({id,name,imageUrl});
+            let name = imageUrl
+            images.push({id,imageUrl});
             id++
         });
     };
