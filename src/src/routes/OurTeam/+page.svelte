@@ -2,9 +2,27 @@
     export let data;
 	let employees = [
 		{
-			ID: 6,
-			Name: 'Sarah Johnson',
-			Information:'Sarah is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to start her career at Hot Beans Web.',
+			ID: 1,
+			Name: 'Alex Rodriguez',
+			Information:'Alex is a recent bootcamp graduate with a background in marketing. He is excited to combine his marketing skills with his newfound web development skills at Hot Beans Web.',
+			Qualifications:'Proficient in HTML, CSS, and JavaScript. Familiar with SEO and Google Analytics.'
+		},
+		{
+			ID: 2,
+			Name: 'David Kim',
+			Information:'David is a recent college graduate with a degree in Information Technology. He is excited to start his career in web development at Hot Beans Web.',
+			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with PHP and MySQL.'
+		},
+		{
+			ID: 3,
+			Name: 'Emily Chen',
+			Information:'Emily is a recent bootcamp graduate with a background in graphic design. She is excited to combine her design skills with her newfound web development skills at Hot Beans Web.',
+			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with Adobe Creative Suite.'
+		},
+		{
+			ID: 4,
+			Name: 'Jessica Nguyen',
+			Information:'Jessica is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to learn from experienced professionals at Hot Beans Web.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with React and Node.js.'
 		},
 		{
@@ -14,28 +32,10 @@
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with Angular and Vue.js.'
 		},
 		{
-			ID: 3,
-			Name: 'Emily Chen',
-			Information:'Emily is a recent bootcamp graduate with a background in graphic design. She is excited to combine her design skills with her newfound web development skills at Hot Beans Web.',
-			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with Adobe Creative Suite.'
-		},
-		{
-			ID: 2,
-			Name: 'David Kim',
-			Information:'David is a recent college graduate with a degree in Information Technology. He is excited to start his career in web development at Hot Beans Web.',
-			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with PHP and MySQL.'
-		},
-		{
-			ID: 4,
-			Name: 'Jessica Nguyen',
-			Information:'Jessica is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to learn from experienced professionals at Hot Beans Web.',
+			ID: 6,
+			Name: 'Sarah Johnson',
+			Information:'Sarah is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to start her career at Hot Beans Web.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with React and Node.js.'
-		},
-		{
-			ID: 1,
-			Name: 'Alex Rodriguez',
-			Information:'Alex is a recent bootcamp graduate with a background in marketing. He is excited to combine his marketing skills with his newfound web development skills at Hot Beans Web.',
-			Qualifications:'Proficient in HTML, CSS, and JavaScript. Familiar with SEO and Google Analytics.'
 		}
 	];
 </script>

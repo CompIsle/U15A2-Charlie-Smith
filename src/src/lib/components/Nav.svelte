@@ -58,4 +58,8 @@
         background-color: #bfcfff;
         color: #000000;
     }
+
+    @media only screen and (max-width: 800px) {
+        
+    }
 </style>

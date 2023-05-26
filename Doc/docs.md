@@ -129,6 +129,8 @@ Navigation will be handled with a navbar located at the top of the page. The nav
 
 ### Design Justification
 
+I have decided to not include any measurements on the designs. This is because I plan to use em values to scale everything on the website. This allows me to easily make the page responsive.
+
 After careful consideration, I have decided to select design 3 as the final design for the website. This particular design optimizes the use of space on the website, while still maintaining a clean and uncluttered appearance that is easy for users to navigate. In contrast, designs 1 and 2 did not fully utilize the available space and tended to cluster elements towards the center, which could have been overwhelming for users.
 
 ### Sources
