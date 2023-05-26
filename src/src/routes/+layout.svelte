@@ -47,4 +47,12 @@
             font-size: 1.5dvw;
         }
     }
+    @media only screen and (max-width: 500px) {
+        .Page{
+            grid-column: 1/4;
+        }
+        body{
+            font-size: 2dvw;
+        }
+    }
 </style>
