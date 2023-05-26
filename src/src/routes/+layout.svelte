@@ -16,8 +16,6 @@
         display: grid;
         grid-template-columns: 3vw 94vw 3vw;
         grid-template-rows: auto 2em auto;
-        background-color: #BFCFFF;
-        font: 1dvw 'Roboto', Arial, sans-serif;
         color: #000000;
     }
     .Nav{
