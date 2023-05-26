@@ -23,7 +23,7 @@
     .container{
         display: grid;
         grid-template-columns: 3vw 94vw 3vw;
-        grid-template-rows: 7em auto;
+        grid-template-rows: auto 2em auto;
         background-color: #BFCFFF;
     }
     .Nav{
@@ -33,7 +33,7 @@
     }
     .Page{
         grid-column: 2/3;
-        grid-row: 2;
+        grid-row: 3;
         border: .1em solid #000000;
         border-radius: 1em;
         box-shadow: 0em 0em 1em .5em rgba(0,0,0,0.1);
