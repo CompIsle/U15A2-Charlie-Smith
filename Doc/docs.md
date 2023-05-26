@@ -139,8 +139,6 @@ After careful consideration, I have decided to select design 3 as the final desi
 
 ### Change Log
 
-<!-- Use Issue tracking in GitHub -->
-
 Change Log tracked using Github issues
 
 [Link to GitHub Issue page](https://github.com/CharlieS-432737/Unit-15-Assignment-2/issues)
@@ -188,11 +186,11 @@ Change Log tracked using Github issues
 - List any unresolved issues or errors that need further attention or fixing.
 -->
 ### User Feedback
-<!--
-- Collect user feedback on the website's usability, design, and functionality.
-- Include verbatim comments from users.
-- Provide a summary of the feedback received.
--->
+
+Devon Wyatt:
+
+"It’s a good website. There were only 2 possible things that could have been improved. One is that on the Our team page is that one of the profiles is out of line with the others. And the other possible improvement is that on mobile your website writing is too small to read. I will send screenshots of the possible improvements found."
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Review

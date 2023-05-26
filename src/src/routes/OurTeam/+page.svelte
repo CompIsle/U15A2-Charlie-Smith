@@ -48,7 +48,7 @@
 		{#each employees as employee}
 			<div class:right={employee.ID % 2 == 0} class="employee">
                 {#each data.images as image}
-                    {#if (image.imageUrl.includes(employee.Name))}
+                    {#if (image.imageUrl.includes(employee.Name.replace(/\s+/g, '')))}
                         <img src={image.imageUrl} alt={employee.Name}>
                     {/if}
                 {/each}
