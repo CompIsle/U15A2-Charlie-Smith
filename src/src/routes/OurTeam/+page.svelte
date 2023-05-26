@@ -3,13 +3,13 @@
     console.log(data)
 	let employees = [
 		{
-			ID: 1,
+			ID: 6,
 			Name: 'Sarah Johnson',
 			Information:'Sarah is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to start her career at Hot Beans Web.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with React and Node.js.'
 		},
 		{
-			ID: 2,
+			ID: 5,
 			Name: 'Michael Lee',
 			Information:'Michael is a self-taught web developer who has been working on personal projects for several years. He is excited to join Hot Beans Web and learn from experienced professionals.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with Angular and Vue.js.'
@@ -21,31 +21,32 @@
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with Adobe Creative Suite.'
 		},
 		{
-			ID: 4,
+			ID: 2,
 			Name: 'David Kim',
 			Information:'David is a recent college graduate with a degree in Information Technology. He is excited to start his career in web development at Hot Beans Web.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with PHP and MySQL.'
 		},
 		{
-			ID: 5,
+			ID: 4,
 			Name: 'Jessica Nguyen',
 			Information:'Jessica is a recent graduate with a degree in Computer Science. She is passionate about web development and is excited to learn from experienced professionals at Hot Beans Web.',
 			Qualifications: 'Proficient in HTML, CSS, and JavaScript. Familiar with React and Node.js.'
 		},
 		{
-			ID: 6,
+			ID: 1,
 			Name: 'Alex Rodriguez',
 			Information:'Alex is a recent bootcamp graduate with a background in marketing. He is excited to combine his marketing skills with his newfound web development skills at Hot Beans Web.',
 			Qualifications:'Proficient in HTML, CSS, and JavaScript. Familiar with SEO and Google Analytics.'
 		}
 	];
+	console.log(employees)
 </script>
 
 <div class="container">
 	<h1>Our Team</h1>
 
 	<div class="content">
-		{#each employees as employee}
+		<!-- {#each employees as employee}
 			<div class:right={employee.ID % 2 == 0} class="employee">
                 {#each data.images as image}
                     {#if (image.imageUrl.includes(employee.Name.replace(/\s+/g, '')))}
@@ -58,6 +59,20 @@
                     <p>{employee.Qualifications}</p>
                 </div>
 			</div>
+		{/each} -->
+		{#each data.images as image }
+			{#each employees as employee }
+				{#if (employee.ID === image.id)}
+					<div class:right={employee.ID % 2 == 0} class="employee">
+						<img src={image.imageUrl} alt={employee.Name}>
+						<div class="employeeInfo">
+							<h4>{employee.Name}</h4>
+							<p>{employee.Information}</p>
+							<p>{employee.Qualifications}</p>
+						</div>
+					</div>
+				{/if}
+			{/each}
 		{/each}
 	</div>
 </div>
@@ -92,13 +107,16 @@
     .employee h4 {
         border-bottom: 0.1em solid #bebebe;
     }
-	.right {
-		flex-direction: row-reverse;
+	.right{
+		text-align: right;
+		justify-content: flex-end;
 	}
-    .right h4, .right p{
-        margin-left: 1em;
-        margin-right: 0em;
-    }
+	.right > img{
+		order: 2;
+	}
+	.right > .employeeInfo {
+		order: 1;
+	}
     .employee > img {
         padding: 1em;
         width: 8em;
