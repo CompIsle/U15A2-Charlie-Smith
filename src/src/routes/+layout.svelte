@@ -13,6 +13,7 @@
 
 <style>
     .container{
+        font: 1dvw 'Roboto', Arial, sans-serif;
         display: grid;
         grid-template-columns: 3vw 94vw 3vw;
         grid-template-rows: auto 2em auto;
@@ -36,9 +37,6 @@
             grid-column: 1/4;
         }
         .container{
-            font-size: .8em;
-        }
-        body{
             font-size: 1.5dvw;
         }
     }
@@ -46,7 +44,7 @@
         .Page{
             grid-column: 1/4;
         }
-        body{
+        .container{
             font-size: 2dvw;
         }
     }
