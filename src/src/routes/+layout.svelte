@@ -12,10 +12,6 @@
 </div>
 
 <style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
     .container{
         display: grid;
         grid-template-columns: 3vw 94vw 3vw;
