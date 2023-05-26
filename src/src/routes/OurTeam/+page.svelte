@@ -1,6 +1,5 @@
 <script>
     export let data;
-    console.log(data)
 	let employees = [
 		{
 			ID: 6,
@@ -39,27 +38,12 @@
 			Qualifications:'Proficient in HTML, CSS, and JavaScript. Familiar with SEO and Google Analytics.'
 		}
 	];
-	console.log(employees)
 </script>
 
 <div class="container">
 	<h1>Our Team</h1>
 
 	<div class="content">
-		<!-- {#each employees as employee}
-			<div class:right={employee.ID % 2 == 0} class="employee">
-                {#each data.images as image}
-                    {#if (image.imageUrl.includes(employee.Name.replace(/\s+/g, '')))}
-                        <img src={image.imageUrl} alt={employee.Name}>
-                    {/if}
-                {/each}
-                <div class="employeeInfo">
-                    <h4>{employee.Name}</h4>
-                    <p>{employee.Information}</p>
-                    <p>{employee.Qualifications}</p>
-                </div>
-			</div>
-		{/each} -->
 		{#each data.images as image }
 			{#each employees as employee }
 				{#if (employee.ID === image.id)}
