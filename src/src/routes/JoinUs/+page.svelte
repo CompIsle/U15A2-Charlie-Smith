@@ -36,7 +36,7 @@
     <div class="courses">
         <h4>List of online courses</h4>
         <a href="https://www.futurelearn.com/courses/learn-to-code-for-the-web">Learn to code for the web</a>
-        <a href="https://legacy.reactjs.org/community/courses.html">A list of React development course</a>
+        <a href="https://legacy.reactjs.org/community/courses.html">A list of React development courses</a>
         <a href="https://www.codecademy.com/learn/learn-git">Learn Git & Github</a>
     </div>
 </div>
