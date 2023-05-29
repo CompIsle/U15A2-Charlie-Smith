@@ -9,6 +9,8 @@ The site can be launched by opening a terminal in the src folder. Once a termina
     npm run dev
 ```
 
-Or you can visit the site on cloudflare using this link: <https://unit-15-assignment-2.pages.dev/>
+Or you can visit the site on Cloudflare using this link: <https://unit-15-assignment-2.pages.dev/>
 
-The home page does not follow the design in the documention. This is because the breif implies there is already an excisting website.
+Documentation can be found in the Doc folder.
+
+The home page does not follow the design in the documentation. This is because the brief implies there is already an existing website.
