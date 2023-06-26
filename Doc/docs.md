@@ -132,6 +132,8 @@ I have decided to not include any measurements on the designs. This is because I
 
 After careful consideration, I have decided to select design 3 as the final design for the website. This particular design optimizes the use of space on the website, while still maintaining a clean and uncluttered appearance that is easy for users to navigate. In contrast, designs 1 and 2 did not fully utilize the available space and tended to cluster elements towards the centre, which could have been overwhelming for users.
 
+The chosen design successfully fulfils the client's requirements by incorporating an "About Us" page for the company profile, an "Our Team" page displaying profiles of trainee web developers, and a "Join Us" page that presents job specifications, qualifications, and an online application form. Furthermore, the design includes links to web development courses, enhancing the user experience. The interface is user-friendly, ensuring ease of use for different types of users. It is also compatible with various devices and exhibits optimal performance.
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Implementation
