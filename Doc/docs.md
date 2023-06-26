@@ -22,6 +22,10 @@
     - [Rectification of Errors](#rectification-of-errors)
     - [Outstanding Issues](#outstanding-issues)
     - [User Feedback](#user-feedback)
+  - [Optimisation](#optimisation)
+    - [Based on validation reports](#based-on-validation-reports)
+      - [Fixes](#fixes)
+    - [Based on performance reports](#based-on-performance-reports)
   - [Review](#review)
     - [Response to Feedback](#response-to-feedback)
 
@@ -181,21 +185,30 @@ Devon Wyatt:
 
 -----------------------------------------------------------------------------------------------------------
 
+## Optimisation 
+
+### Based on validation reports
+
+The CSS validation report found no errors on the webpage. However, the HTML report identified four errors: 'Start tag body seen but an element of the same type was already open,' 'End tag for body seen, but there were unclosed elements,' 'Unclosed element div,' and 'Stray start tag script.' It is important to note that most of these errors were caused by my use of SvelteKit to design my webpage.
+
+#### Fixes
+
+I resolved these errors by making the following changes:
+
+In the layout.svelte file, I replaced the body element with the div element and moved the styling for the body to the app.html file.
+By making these adjustments, I successfully resolved all the errors identified in the HTML report."
+
+### Based on performance reports
+
+Within the performance reports, there were only two areas in which my website can be improved to enhance its performance: 'Eliminate render-blocking resources' and 'Image elements do not have explicit width and height.' Unfortunately, the 'Eliminate render-blocking resources' issue cannot be resolved at the moment, as the render-blocking resource is the font used for the website. Similarly, the 'Image elements do not have explicit width and height' problem cannot be addressed due to the inherent nature of how the web handles responsiveness.
+
+-----------------------------------------------------------------------------------------------------------
+
 ## Review
 
 ### Response to Feedback
 
 Both of the improvements mentioned in the feedback have been successfully implemented. The first improvement addressed an issue caused by a bug that prevented employee images from loading, resulting in misaligned text. This issue has been resolved, ensuring that the images are now properly displayed. The second improvement involved the implementation of a mobile website, which was previously missing. By introducing a dedicated mobile version, the website now offers enhanced user experience with larger text that is optimized for mobile devices.
-
-<!-- ### Evaluation
-
------------------------------------------------------------------------------------------------------------
-
-## References
-
------------------------------------------------------------------------------------------------------------
-
--->
 
 <style>
   h1,h2,h3,h4,h5,h6{
