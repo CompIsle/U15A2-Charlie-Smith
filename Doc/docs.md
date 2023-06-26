@@ -3,32 +3,27 @@
 - [Unit 15 Assignment 2](#unit-15-assignment-2)
   - [Requirements](#requirements)
     - [User Requirements](#user-requirements)
-    - [Tooling](#tooling)
+  - [Tooling](#tooling)
   - [Plans](#plans)
     - [Test planning](#test-planning)
   - [Design](#design)
-    - [Wireframes/Storyboards](#wireframesstoryboards)
     - [Colour Schemes](#colour-schemes)
     - [Typography](#typography)
     - [Navigation](#navigation)
     - [Designs](#designs)
     - [Design Justification](#design-justification)
-    - [Sources](#sources)
   - [Implementation](#implementation)
     - [Change Log](#change-log)
     - [Justification of Design Changes](#justification-of-design-changes)
-  - [Test](#test)
+  - [Tests](#tests)
     - [Validation Reports](#validation-reports)
     - [Test Results](#test-results)
-      - [Functionality](#functionality)
       - [Performance](#performance)
     - [Rectification of Errors](#rectification-of-errors)
     - [Outstanding Issues](#outstanding-issues)
     - [User Feedback](#user-feedback)
   - [Review](#review)
     - [Response to Feedback](#response-to-feedback)
-    - [Evaluation](#evaluation)
-  - [References](#references)
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -45,7 +40,9 @@
 - Compatibility and Performance
 - Usability
 
-### Tooling
+-----------------------------------------------------------------------------------------------------------
+
+## Tooling
 
 I selected Svelte Kit as the framework for building this website due to my familiarity with it and its ability to streamline development by enabling the creation of reusable components.
 
@@ -65,11 +62,9 @@ I selected Svelte Kit as the framework for building this website due to my famil
 
 ## Design
 
-### Wireframes/Storyboards
-
 ### Colour Schemes
 
-I will be using these colours for the website:
+I will be using the following colours for the website:
 
 <div style="display:flex; flex-direction:row;">
   <div style="display:flex; flex-direction:column;">
@@ -131,9 +126,7 @@ Navigation will be handled with a navbar located at the top of the page. The nav
 
 I have decided to not include any measurements on the designs. This is because I plan to use em values to scale everything on the website. This allows me to easily make the page responsive.
 
-After careful consideration, I have decided to select design 3 as the final design for the website. This particular design optimizes the use of space on the website, while still maintaining a clean and uncluttered appearance that is easy for users to navigate. In contrast, designs 1 and 2 did not fully utilize the available space and tended to cluster elements towards the center, which could have been overwhelming for users.
-
-### Sources
+After careful consideration, I have decided to select design 3 as the final design for the website. This particular design optimizes the use of space on the website, while still maintaining a clean and uncluttered appearance that is easy for users to navigate. In contrast, designs 1 and 2 did not fully utilize the available space and tended to cluster elements towards the centre, which could have been overwhelming for users.
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -141,19 +134,23 @@ After careful consideration, I have decided to select design 3 as the final desi
 
 ### Change Log
 
-Change Log tracked using Github issues
+Change Log tracked using GitHub issues
 
-[Link to GitHub Issue page](https://github.com/CharlieS-432737/Unit-15-Assignment-2/issues)
+[Link to GitHub Issue page](https://github.com/CompIsle/U15A2-Charlie-Smith/issues?q=is%3Aissue+is%3Aclosed)
 
 ### Justification of Design Changes
 
+The primary design alteration I implemented was a minor redesign to align with the new colour scheme and updated designs.
+
 -----------------------------------------------------------------------------------------------------------
 
-## Test
+## Tests
 
 ### Validation Reports
-- Validation report for HTML: [HTML validation report](https://validator.w3.org/)
+
+- Validation report for HTML: [HTML validation report](https://validator.w3.org/nu/?doc=https%3A%2F%2Funit-15-assignment-2.pages.dev%2F)
 - Validation report for CSS: [CSS validation report](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Funit-15-assignment-2.pages.dev%2F&usermedium=all&vextwarning=&warning=1)
+
 ### Test Results
 
 | Test ID | What needs to happen for test | Expected behaviour | Actual behaviour | Pass |
@@ -161,30 +158,21 @@ Change Log tracked using Github issues
 |1| Test navigation links | When clicking on the Home tab in the navbar, the user should be taken to the Home page | User is redirected to the Home page | ✔️ |
 |2| Test form submission | Fill out the online application form and click the Submit button | Form is submitted | ✔️ |
 |3| Test compatibility with different browsers | Open the website in Chrome, Firefox and Edge | Website displays correctly in all three browsers | ✔️ |
-|4| Test mobile responsiveness | View the website on a mobile device with different screen sizes |  |  |
+|4| Test mobile responsiveness | View the website on a mobile device with different screen sizes | Website displays correctly on smaller screens | ✔️ |
 
-#### Functionality
-<!--
-- Test the functionality of interactive elements such as buttons, forms, and links.
-- Verify that all pages and sections load properly.
-- Test any dynamic features, such as image sliders or interactive elements.
--->
 #### Performance
-<!--
-- Measure the website's loading speed using tools like PageSpeed Insights or Lighthouse.
-- Evaluate the website's performance on different devices and network conditions.
-- Assess the website's resource usage, such as file sizes and caching.
--->
+
+- [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-unit-15-assignment-2-pages-dev/yda0clw1mc?form_factor=desktop)
+- [GTmetrix](../assets/GTmetrix-report-unit-15-assignment-2.pages.dev-20230529T125959-e0wlVJw2.pdf)
+
 ### Rectification of Errors
-<!--
-- Document any errors or issues encountered during testing.
-- Provide steps taken to rectify those errors.
-- Specify any remaining unresolved issues or errors.
--->
+
+Extensive testing has revealed no significant errors.
+
 ### Outstanding Issues
-<!--
-- List any unresolved issues or errors that need further attention or fixing.
--->
+
+One significant outstanding issue pertains to the performance of the website. Upon loading, the website retrieves its font from Google Fonts. However, this operation is categorized as a render-blocking resource, resulting in suboptimal load times. Addressing this issue presents a challenge since the webpage relies heavily on the specific font for its visual presentation and readability.
+
 ### User Feedback
 
 Devon Wyatt:
@@ -197,10 +185,20 @@ Devon Wyatt:
 
 ### Response to Feedback
 
-### Evaluation
+Both of the improvements mentioned in the feedback have been successfully implemented. The first improvement addressed an issue caused by a bug that prevented employee images from loading, resulting in misaligned text. This issue has been resolved, ensuring that the images are now properly displayed. The second improvement involved the implementation of a mobile website, which was previously missing. By introducing a dedicated mobile version, the website now offers enhanced user experience with larger text that is optimized for mobile devices.
+
+<!-- ### Evaluation
 
 -----------------------------------------------------------------------------------------------------------
 
 ## References
 
 -----------------------------------------------------------------------------------------------------------
+
+-->
+
+<style>
+  h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+  }
+</style>
